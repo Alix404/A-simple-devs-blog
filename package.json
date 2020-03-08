@@ -1,0 +1,11 @@
+{
+  "name": "A simple dev's blog",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-load-plugins": "^2.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1"
+  }
+}

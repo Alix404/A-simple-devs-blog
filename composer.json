@@ -1,0 +1,13 @@
+{
+    "name": "alix-vendeville/a-simple-devs-blog",
+
+    "authors": [
+        {
+            "name": "Alix Vendeville",
+            "email": "vendalex01@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "require-dev": {}
+}

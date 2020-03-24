@@ -1,0 +1,12 @@
+.contact1 {
+  background: #081F2B !important; }
+  .contact1 .contact1-form-title {
+    color: #081F2B; }
+  .contact1 .input1 {
+    background-color: #acc78e;
+    color: #081F2B; }
+    .contact1 .input1::placeholder {
+      color: #986d3b; }
+
+.contact1-form-btn {
+  background-color: #426A4C; }

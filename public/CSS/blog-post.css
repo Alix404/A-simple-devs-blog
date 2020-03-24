@@ -7170,20 +7170,14 @@ body {
 
 .bodyContent {
   color: #081F2B; }
-  .bodyContent .my-4 {
-    color: #CEAF62; }
   .bodyContent .card {
     background-color: #ACC78E; }
-  .bodyContent .card-header {
-    color: #081F2B; }
-  .bodyContent .card-body {
-    color: #081F2B; }
-  .bodyContent .page-link {
-    border: 3px solid #426A4C !important;
-    margin: 0.10rem; }
   .bodyContent .side-menu {
     position: sticky;
     top: 80px; }
+  .bodyContent .middle-content {
+    padding: 20px;
+    background-color: #acc78e; }
 
 .py-5 {
   background-color: #426A4C !important; }

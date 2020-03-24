@@ -47,30 +47,18 @@ body {
 .bodyContent {
   color: #081F2B;
 
-  .my-4 {
-    color: #CEAF62;
-  }
-
   .card {
     background-color: #ACC78E;
-  }
-
-  .card-header {
-    color: #081F2B;
-  }
-
-  .card-body {
-    color: #081F2B;
-  }
-
-  .page-link {
-    border: 3px solid #426A4C !important;
-    margin: 0.10rem;
   }
 
   .side-menu {
     position: sticky;
     top: 80px;
+  }
+
+  .middle-content {
+    padding: 20px;
+    background-color: rgb(172, 199, 142);
   }
 }
 

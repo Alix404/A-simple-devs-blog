@@ -1,8 +1,13 @@
 {
   "name": "A simple dev's blog",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "startbootstrap-blog-home": "^4.2.1",
+    "startbootstrap-blog-post": "^4.2.1"
+  },
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "gulp": "4.0.2",
     "gulp-load-plugins": "^2.0.2",
     "gulp-sass": "^4.0.2",

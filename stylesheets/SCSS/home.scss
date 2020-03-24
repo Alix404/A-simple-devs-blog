@@ -1,0 +1,40 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 56px;
+  background-color: #081F2B;
+  color: #C9D18E;
+  .btn {
+    background-color: #081F2B;
+  }
+}
+
+.navigation {
+  .navbar {
+    background-color: #426A4C !important;
+  }
+}
+
+.bodyContent {
+  color: #081F2B;
+  .my-4 {
+    color: #CEAF62;
+  }
+  .card {
+    background-color: #ACC78E;
+  }
+  .card-header {
+    color: #081F2B;
+  }
+  .card-body {
+    color: #081F2B;
+  }
+  .page-link {
+    border: 3px solid #426A4C !important;
+    margin: 0.10rem;
+  }
+}
+
+.py-5 {
+  background-color: #426A4C !important;
+}

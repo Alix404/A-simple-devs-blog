@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../../public/Contact-Folder/fonts/montserrat');
+}
+
+.login100-form-title {
+  color: #081F2B;
+}
+
+.input100 {
+  background-color: #acc78e;
+  color: #081F2B;
+
+  &::placeholder {
+    color: #986d3b;
+  }
+}
+
+.container-login100 {
+  background: #081F2B;
+}
+
+.login100-form-btn {
+  background-color: #426A4C;
+}

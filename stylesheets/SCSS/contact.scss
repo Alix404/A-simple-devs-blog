@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../../public/Contact-Folder/fonts/montserrat');
+}
+
 .contact1 {
   background: #081F2B !important;
 
@@ -17,4 +22,12 @@
 
 .contact1-form-btn {
   background-color: #426A4C;
+  color: #f1f1f1;
+  margin: 15px 2px 0 2px;
+  a {
+    color: #f1f1f1;
+    font-family: Montserrat-Bold, serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
 }

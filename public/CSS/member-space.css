@@ -7143,17 +7143,12 @@ body {
   background-color: #081F2B;
   color: #C9D18E; }
   body .btn {
-    background-color: #081F2B;
-    border-color: #081F2B; }
-    body .btn:hover {
-      background-color: #426A4C;
-      border-color: #426A4C; }
+    background-color: #081F2B; }
   body a {
     color: #426A4C; }
     body a:hover {
       color: #081F2B; }
 
-/* width */
 ::-webkit-scrollbar {
   width: 12px; }
 
@@ -7172,16 +7167,36 @@ body {
 .navigation .navbar {
   background-color: #426A4C !important; }
 
-.bodyContent {
-  color: #081F2B; }
-  .bodyContent .my-4 {
-    color: #CEAF62; }
-  .bodyContent .card {
-    background-color: #ACC78E; }
-  .bodyContent .card-header {
-    color: #081F2B; }
-  .bodyContent .card-body {
-    color: #081F2B; }
+.container .my-2 {
+  margin-top: 8rem !important;
+  margin-bottom: 245px !important; }
+
+.container #editTab, .container #messagesTab, .container #profileTab {
+  color: #986d3b; }
+  .container #editTab:active, .container #messagesTab:active, .container #profileTab:active {
+    background-color: #f1f1f1;
+    border: 2px solid #CEAF62; }
+  .container #editTab:focus, .container #messagesTab:focus, .container #profileTab:focus {
+    background-color: #f1f1f1;
+    border: 2px solid #CEAF62; }
+  .container #editTab:hover, .container #messagesTab:hover, .container #profileTab:hover {
+    background-color: #986d3b;
+    color: #f1f1f1;
+    border: 2px solid #f1f1f1; }
+
+.container h5 {
+  color: #986d3b; }
+
+.container h3 {
+  color: #CEAF62; }
+
+.container p {
+  color: #acc78e; }
+
+.container td {
+  color: #acc78e; }
+  .container td strong {
+    color: #426A4C; }
 
 .py-5 {
   background-color: #426A4C !important; }

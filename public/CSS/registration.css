@@ -1,9 +1,16 @@
 body {
   background-color: #081F2B;
-  color: #081F2B; }
+  color: #081F2B;
+  padding: 100px 0; }
 
 .signup-content {
-  background-color: #426A4C; }
+  background-color: #426A4C;
+  border: 5px solid #426A4C;
+  border-right-width: 10px; }
+  .signup-content .signup-form::-webkit-scrollbar-thumb {
+    background-color: #ACC78E; }
+  .signup-content .signup-form::-webkit-scrollbar-track {
+    background-color: #081F2B; }
   .signup-content .form-input {
     background-color: #ACC78E;
     border-color: #ACC78E; }
@@ -15,10 +22,30 @@ body {
   .signup-content .form-radio input:checked + label {
     border-color: #426A4C;
     background-color: #ACC78E; }
+  .signup-content #country, .signup-content #city {
+    background-color: #ACC78E !important; }
+    .signup-content #country li.init, .signup-content #city li.init {
+      color: #081F2B; }
   .signup-content #submit {
     background-color: #ACC78E;
     color: #081F2B;
     border: 2px solid #f1f1f1; }
-    .signup-content #submit:hover {
+    .signup-content #submit:hover, .signup-content #submit:focus {
+      background-color: #f1f1f1;
+      border-color: #ACC78E; }
+  .signup-content .return {
+    width: 220px;
+    height: 54px;
+    margin: 37px 0 0;
+    background-color: #ACC78E;
+    color: #081F2B;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif; }
+    .signup-content .return:hover, .signup-content .return:focus {
+      cursor: pointer;
       background-color: #f1f1f1;
       border-color: #ACC78E; }

@@ -1,10 +1,23 @@
 body {
   background-color: #081F2B;
   color: #081F2B;
+  padding: 100px 0;
 }
 
 .signup-content {
   background-color: #426A4C;
+  border: 5px solid #426A4C;
+  border-right-width: 10px;
+  .signup-form{
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #ACC78E;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #081F2B;
+    }
+  }
 
   .form-input {
     background-color: #ACC78E;
@@ -25,13 +38,44 @@ body {
       border-color: #426A4C;
       background-color: #ACC78E;
     }
+
+
+  }
+
+  #country, #city {
+    background-color: #ACC78E !important;
+
+    li.init {
+      color: #081F2B;
+    }
   }
 
   #submit {
     background-color: #ACC78E;
     color: #081F2B;
-    border:2px solid #f1f1f1;
-    &:hover {
+    border: 2px solid #f1f1f1;
+
+    &:hover, &:focus {
+      background-color: #f1f1f1;
+      border-color: #ACC78E;
+    }
+  }
+
+  .return {
+    width: 220px;
+    height: 54px;
+    margin: 37px 0 0;
+    background-color: #ACC78E;
+    color: #081F2B;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+
+    &:hover, &:focus {
+      cursor: pointer;
       background-color: #f1f1f1;
       border-color: #ACC78E;
     }

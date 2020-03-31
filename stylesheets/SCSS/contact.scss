@@ -1,10 +1,9 @@
-@font-face {
-  font-family: Montserrat-Bold;
-  src: url('../../public/Contact-Folder/fonts/montserrat');
-}
+@import "general";
 
 .contact1 {
+  margin-top: 40px;
   background: #081F2B !important;
+  margin-bottom: 12px;
 
   .contact1-form-title {
     color: #081F2B;

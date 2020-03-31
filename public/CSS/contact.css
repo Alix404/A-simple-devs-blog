@@ -1,9 +1,42 @@
 @font-face {
   font-family: Montserrat-Bold;
-  src: url("../../public/Contact-Folder/fonts/montserrat"); }
+  src: url("../miscellaneous/Contact-Folder/fonts/montserrat"); }
+
+body {
+  height: 99vh;
+  padding-top: 56px;
+  background-color: #081F2B;
+  color: #C9D18E;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */ }
+  body .btn {
+    background-color: #081F2B;
+    border-color: #081F2B; }
+    body .btn:hover {
+      background-color: #426A4C;
+      border-color: #426A4C; }
+  body a {
+    color: #426A4C; }
+    body a:hover {
+      color: #081F2B; }
+  body ::-webkit-scrollbar {
+    width: 12px; }
+  body ::-webkit-scrollbar-track {
+    background: #f1f1f1; }
+  body ::-webkit-scrollbar-thumb {
+    background: #888; }
+  body ::-webkit-scrollbar-thumb:hover {
+    background: #555; }
+  body .navigation .navbar {
+    background-color: #426A4C !important; }
+  body .py-5 {
+    background-color: #426A4C !important; }
 
 .contact1 {
-  background: #081F2B !important; }
+  margin-top: 40px;
+  background: #081F2B !important;
+  margin-bottom: 12px; }
   .contact1 .contact1-form-title {
     color: #081F2B; }
   .contact1 .input1 {

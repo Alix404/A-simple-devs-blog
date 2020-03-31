@@ -1,48 +1,4 @@
-@import "node_modules/bootstrap/scss/bootstrap";
-
-body {
-  padding-top: 56px;
-  background-color: #081F2B;
-  color: #C9D18E;
-
-  .btn {
-    background-color: #081F2B;
-  }
-
-  a {
-    color: #426A4C;
-
-    &:hover {
-      color: #081F2B;
-    }
-  }
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-.navigation {
-  .navbar {
-    background-color: #426A4C !important;
-  }
-}
+@import "general";
 
 .bodyContent {
   color: #081F2B;
@@ -60,9 +16,5 @@ body {
     padding: 20px;
     background-color: rgb(172, 199, 142);
   }
-}
-
-.py-5 {
-  background-color: #426A4C !important;
 }
 

@@ -1,6 +1,5 @@
 @font-face {
-  font-family: Montserrat-Bold;
-  src: url("../miscellaneous/Contact-Folder/fonts/montserrat"); }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 body {
   height: 99vh;
@@ -40,12 +39,10 @@ input, select, textarea {
   -webkit-appearance: unset; }
 
 input[type=checkbox] {
-  appearance: checkbox;
   -moz-appearance: checkbox;
   -webkit-appearance: checkbox; }
 
 input[type=radio] {
-  appearance: radio;
   -moz-appearance: radio;
   -webkit-appearance: radio; }
 
@@ -68,20 +65,19 @@ figure {
   margin: 0; }
 
 p {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-size: 15px;
   color: #777; }
 
 h2 {
   line-height: 1.66;
-  margin: 0;
+  margin: 0 0 40px 0;
   padding: 0;
   font-weight: 900;
   color: #222;
   font-size: 24px;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 40px; }
+  text-align: center; }
 
 .clear {
   clear: both; }
@@ -93,7 +89,7 @@ h2 {
   padding: 10px 0; }
 
 .signup-form {
-  padding: 58px 50px 0px 50px;
+  padding: 58px 50px 0 50px;
   height: 652px;
   overflow-y: auto; }
 
@@ -142,9 +138,9 @@ input:-moz-placeholder {
   left: -9999px; }
 
 .form-radio input + label {
-  margin: 0px;
+  margin: 0;
   padding: 12px 10px;
-  width: 94px;
+  width: 161px;
   height: 50px;
   box-sizing: border-box;
   position: relative;
@@ -165,24 +161,20 @@ input:-moz-placeholder {
 .form-radio input:focus + label {
   outline: none; }
 
-.form-radio input:hover {
-  background-color: #ACC78E;
+.form-radio input:hover + label {
+  background-color: #426A4C;
   color: #f1f1f1; }
 
 .form-flex input + label:first-of-type {
   border-radius: 5px 0 0 5px;
   -moz-border-radius: 5px 0 0 5px;
   -webkit-border-radius: 5px 0 0 5px;
-  -o-border-radius: 5px 0 0 5px;
-  -ms-border-radius: 5px 0 0 5px;
   border-right: none; }
 
 .form-flex input + label:last-of-type {
   border-radius: 0 5px 5px 0;
   -moz-border-radius: 0 5px 5px 0;
   -webkit-border-radius: 0 5px 5px 0;
-  -o-border-radius: 0 5px 5px 0;
-  -ms-border-radius: 0 5px 5px 0;
   border-left: none; }
 
 .form-row {
@@ -218,7 +210,7 @@ ul {
 
 ul li {
   background: #f1f1f1;
-  padding: 5px 0px;
+  padding: 5px 0;
   z-index: 2;
   color: #081F2B;
   font-size: 14px;
@@ -260,9 +252,24 @@ li.init:after {
   content: '\f2f9';
   font-weight: 400; }
 
+.return {
+  width: auto;
+  background: #ACC78E;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  padding: 16px 50px;
+  float: left;
+  border: none;
+  margin-top: 37px;
+  cursor: pointer;
+  border-radius: 5px; }
+
+.return:hover {
+  background: #426A4C; }
+
 .form-submit {
   width: auto;
-  background: #081F2B;
+  background: #ACC78E;
   color: #f1f1f1;
   text-transform: uppercase;
   padding: 16px 50px;
@@ -311,5 +318,15 @@ input.error {
   .container {
     width: calc(100% - 30px);
     max-width: 100%; } }
+
+.navigation .navbar .nav-item {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5; }
+
+.py-5 {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

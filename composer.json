@@ -1,6 +1,6 @@
 {
     "name": "alix-vendeville/a-simple-devs-blog",
-
+    "license": "",
     "authors": [
         {
             "name": "Alix Vendeville",
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "src\\": "src/"
+            "src\\App\\" : "src/App/"
         }
     }
 }

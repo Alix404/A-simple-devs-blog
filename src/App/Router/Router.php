@@ -38,9 +38,9 @@ class Router
     private function finalRoute()
     {
         if (isset($_GET['target'])) {
-            $this->route = $this->twigEnvironment->getTemplatesPath() . $this->target . '.twig';
+            $this->route = $this->target . '.twig';
         } else {
-            $this->route = $this->twigEnvironment->getTemplatesPath() . 'home.twig';
+            $this->route = 'home.twig';
         }
 
         return $this->route;

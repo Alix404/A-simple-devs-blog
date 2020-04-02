@@ -4,6 +4,9 @@ namespace src\App\Renderer;
 
 use src\App\Router\Router;
 use src\App\Twig\TwigEnvironment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Error\SyntaxError;
 
 class Renderer
 {
@@ -19,7 +22,12 @@ class Renderer
 
     public function render()
     {
-        $this->twigEnvironment->getTwigEnvironment()->render($this->route->getRoute());
+        try {
+            echo $this->twigEnvironment->getTwigEnvironment()->render($this->route->getRoute());
+        } catch (LoaderError $e) {
+        } catch (RuntimeError $e) {
+        } catch (SyntaxError $e) {
+        }
     }
 }
 

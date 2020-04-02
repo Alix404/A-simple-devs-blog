@@ -8,7 +8,7 @@ use Twig\Loader\FilesystemLoader;
 class TwigEnvironment
 {
 
-    protected $templatesPath = '../../views';
+    protected $templatesPath = __DIR__ . '/../../../views';
     protected $loader;
     protected $environment;
     protected $twigEnvironment;
